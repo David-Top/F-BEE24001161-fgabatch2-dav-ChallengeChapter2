@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chalenge Chapter 1</title>
+    <style>
+      body {
+        font-family: "Orbitron", sans-serif;
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 10px;
+      }
+      h1,
+      div {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+      }
+      h1 {
+        padding: 10px 10px 15px;
+      }
+      span {
+        padding: 2px;
+      }
+      button {
+        margin: 0 10px;
+        font-family: "Orbitron", sans-serif;
+        padding: 0 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>WELCOME...!!!</h1>
+    <div id="teks">
+      <p>Your balance is <span id="saldo"></span></p>
+    </div>
+    <div id="tombol">
+      <button onclick="BankAccount.deposit()">Deposit</button>
+      <button onclick="BankAccount.withdraw()">Withdraw</button>
+    </div>
+    <!-- <script src="bank_account.js"></script> -->
+    <script src="banking_system.js"></script>
+  </body>
+</html>
